@@ -16,11 +16,11 @@ printf("Size of a char: %lu byte(s)\n", sizeof(char_size));
 
 printf("Size of an int: %lu byte(s)\n", sizeof(int_size));
 
-printf("Size of a long int: %lu bytes(s)\n", sizeof(longInt_size));
+printf("Size of a long int: %lu byte(s)\n", sizeof(longInt_size));
 
-printf("Size of a long long int: %lu bytes(s)\n", sizeof(longLongInt_size));
+printf("Size of a long long int: %lu byte(s)\n", sizeof(longLongInt_size));
 
-printf("Size of a float: %lu bytes(s)\n", sizeof(float_size));
+printf("Size of a float: %lu byte(s)\n", sizeof(float_size));
 
 return (0);
 }
