@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
-int main(void)
+ int _putchar(char c)
 {
 _putchar('_');
 _putchar('p');
@@ -17,5 +17,4 @@ _putchar('a');
 _putchar('r');
 _putchar('\n');
 
-return (0);
 }
