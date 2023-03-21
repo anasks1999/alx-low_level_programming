@@ -23,5 +23,5 @@ printf("%d, ", num);
 num--;
 }
 }
-printf("%d, ", num);
+printf("%d\n", num);
 }
