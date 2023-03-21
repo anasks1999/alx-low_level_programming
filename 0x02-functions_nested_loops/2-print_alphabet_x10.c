@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - prints 10 times alphabet in lowerCase
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
 
 void print_alphabet(void);
