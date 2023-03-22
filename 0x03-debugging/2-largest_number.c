@@ -21,7 +21,7 @@ else
 largest = c;
 }
 
-if (b > a)
+else if (b > a)
 {
 if (b > c)
 largest = b;
@@ -29,7 +29,7 @@ else
 largest = c;
 }
 
-if (c > a)
+else if (c > a)
 {
 if (c > b)
 largest = c;
