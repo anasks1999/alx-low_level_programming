@@ -30,12 +30,9 @@ largest = c;
 }
 
 else if (a > c)
-{
-if (a > b)
 largest = a;
 else
-largest = b;
-}
+largest = c;
 
 return (largest);
 }
