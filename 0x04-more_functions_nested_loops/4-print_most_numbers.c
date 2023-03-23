@@ -13,7 +13,7 @@ while (num <= 9)
 {
 if (num == 2 || num == 4)
 {
-num++;    
+num++;
 continue;
 }
 _putchar(num + '0');
