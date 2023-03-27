@@ -13,12 +13,13 @@ int i = 0;
 
 while (i < n)
 {
-printf("%d", *(a + i));
+_putchar(*(a + i));
 if (i == (n - 1))
 break;
-printf(", ");
+_putchar(',');
+_putchar(' ');
 i++;
 
 }
-printf("\n");
+_putchar('\n');
 }
