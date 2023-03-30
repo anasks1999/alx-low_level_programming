@@ -11,11 +11,11 @@ char *string_toupper(char *str)
 int i;
 
 i = 0;
-while (s[i])
+while (str[i])
 {
-if (*(s + i) >= 'a' && *(s + i) <= 'z')
+if (*(str + i) >= 'a' && *(str + i) <= 'z')
 {
-s[i] += 'A' - 'a';
+str[i] += 'A' - 'a';
 }
 i++;
 }
