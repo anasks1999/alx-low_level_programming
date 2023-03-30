@@ -20,7 +20,7 @@ str1++;
 dest[str1] = ' ';
 
 str2 = 0;
-while (src[str2] != 0 && str2 <= n)
+while (src[str2] && str2 < n)
 {
 dest[str1] = src[str2];
 str1++;
