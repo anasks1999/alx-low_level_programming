@@ -23,5 +23,6 @@ dest[length] = src[i];
 i++;
 length++;
 }
+dest[length] = '\0';
 return (0);
 }
