@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strspn - get the length of a prefix substring
+ * _strspn - get the length of a prefix substring
  * @s: string
  * @accept: substring
  *
@@ -12,8 +12,15 @@ unsigned int _strspn(char *s, char *accept)
 {
 int i = 0;
 
-while (accept[0] != s[i])
+while (s[i])
+{
+if (accept[0] == s[i])
+{
 i++;
+break;
+}
+i++;
+}
 
-return (++i);
+return (i);
 }
