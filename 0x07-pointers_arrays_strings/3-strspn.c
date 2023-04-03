@@ -22,6 +22,7 @@ i++;
 if (s[i] == accept[j])
 {
 i++;
+j = 0;
 size++;
 }
 else
