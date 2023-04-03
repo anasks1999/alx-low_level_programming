@@ -14,16 +14,15 @@ int i = 0;
 int j = 0;
 unsigned int size = 0;
 
-while (accept[j] != 0)
+while (s[i])
 {
-while (s[i] != accept[j])
+while (accept[j])
 {
-i++;
 if (s[i] == accept[j])
 {
-i++;
-j = 0;
 size++;
+j = 0;
+i++;
 }
 else
 j++;
