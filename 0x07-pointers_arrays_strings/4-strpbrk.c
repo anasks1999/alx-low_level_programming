@@ -20,9 +20,8 @@ while (accept[j])
 {
 if (s[i] == accept[j])
 {
-return (s);
+return (s + i);
 }
-s++;
 j++;
 }
 i++;
