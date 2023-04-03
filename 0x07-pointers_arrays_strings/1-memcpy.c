@@ -19,10 +19,7 @@ length++;
 
 while (i < n)
 {
-dest[length] = src[i];
-i++;
-length++;
+dest[length++] = src[i++];
 }
-dest[length] = '\0';
-return (0);
+return (dest);
 }
