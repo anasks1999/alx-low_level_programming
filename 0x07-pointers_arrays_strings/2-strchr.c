@@ -9,19 +9,19 @@
  * Return: first occurence of 'c' in the string 's', otherwise NULL.
  */
 
-char *_strchr(char *s, char c)
+char *_strchr(char *arr, char c)
 {
-while (*s != '\0')
+int count;
+
+while (arr[count] != '\0')
 {
-if (*s == c)
+if (arr[count] == c)
 {
-return (s);
+return (arr + count);
+break;
 }
-s++;
+count++;
 }
-if (*s == c)
-{
-return (s);
-}
+if (arr[count] == '\0')
 return (NULL);
 }
